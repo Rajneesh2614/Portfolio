@@ -1,0 +1,126 @@
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: black;
+}
+
+.background-image {
+  background: url(../images/Coder.jpg) no-repeat center fixed; 
+  background-size: cover;
+}
+
+.background-color {
+  padding: 20em;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: rgb(196, 199, 223);
+}
+
+.img-profile{
+  max-width: 20%;
+  max-height: 20%;
+}
+
+.div-text {
+  bottom: 130px;
+  left: -151px;
+  position: relative;
+  height: 194px;
+  text-align: center;
+}
+
+.div-text-description {
+    bottom: 8px;
+    left: 323px;
+    position: relative;
+    height: 194px;
+    text-align: left;
+}
+
+.div-image {
+  bottom: 318px;
+  left: -258px;
+  position: relative;
+}
+
+.div-table {
+  bottom: 119px;
+  left: 169px;
+  position: relative;
+}
+
+.h2{
+  color: black;
+}
+
+.h1{
+  color: white;
+}
+
+.h1Black{
+  text-align: center;
+  color: black;
+}
+
+.h1BlackSimple{
+  color: black;
+}
+
+.h2-left{
+  text-align: left;
+}
+
+.marquee {
+  width: 100vw;
+  height: 20vh;
+  background-color: #111;
+  color: #eee;
+  position: relative;
+}
+
+.marquee-content {
+  list-style: none;
+  height: 100%;
+  display: flex;
+  animation: scrolling 10s linear infinite;
+}
+
+@keyframes scrolling {
+  0% { transform: translateX(100vw); }
+  100% { transform: translateX(-300vw); }
+}
+.marquee-content li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  width: 30vw;
+  max-height: 100%;
+  white-space: nowrap;
+}
+
+.inherit{
+  position: inherit;
+}
+
+.center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.divCentre{
+  margin: auto;
+  width: 60%;
+}
+
+.table{
+  border: 2px solid black;
+}
+
+.icons{
+  float: right;
+  margin-left: 65%;
+}
